@@ -47,7 +47,7 @@ export default function About(){
 
             <p>
                 More about ieee on the official website:
-                <a href="https://www.ieee.org/about/at-a-glance.html"> https://www.ieee.org/about/at-a-glance.html </a>
+                <a href="https://www.ieee.org/about/at-a-glance.html" target="_blank" rel="noreferrer"> https://www.ieee.org/about/at-a-glance.html </a>
             </p>
 
         </div>

@@ -9,6 +9,7 @@ import Council from './pages/Council'
 import JoinIEEE from './pages/JoinIEEE'
 import News from './pages/News'
 import Projects from './pages/Projects'
+import NewsSb from './pages/News_sb'
 
 export default function App(){
   return (
@@ -22,7 +23,8 @@ export default function App(){
         <Route path='/council' element={<Council />} />
         <Route path='/joinieee' element={<JoinIEEE />} />
         <Route path='/news' element={<News />} />
-        <Route path='/Projects' element={<Projects />} /> 
+        <Route path='/projects' element={<Projects />} /> 
+        <Route path='/news_sb' element={<NewsSb />} /> 
       </Routes>
       <Footer/>
     </div>

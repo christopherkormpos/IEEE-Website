@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Home(){
     return (
@@ -18,7 +19,7 @@ export default function Home(){
 
     </p>
 
-    <a href="about.html"> More about our Student Branch </a>
+    <Link to="/about">More about our Student Branch</Link> 
 
 </div>
 
@@ -43,7 +44,7 @@ export default function Home(){
         Want to participate on our ongoing projects? 
         Learn more about them
 
-        <a href="projects.html"> here. </a>
+        <Link to="/projects"> here. </Link>
 
     </p>
 
@@ -68,7 +69,7 @@ export default function Home(){
     <p>
 
         Join today the global community of IEEE and get access to all the student benefits today!
-        <a href="join.html"> Join IEEE </a>
+        <Link to="/joinieee"> Join IEEE </Link>
 
     </p>
 
