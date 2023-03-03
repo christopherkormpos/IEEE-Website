@@ -1,7 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import axios from 'axios'
 
 export default function Home(){
+    const [data, setData] = React.useState([])      //State for incoming API data
+
+
+    React.useEffect(() => {
+        axios.get('http://localhost:8000').then((response) => {     //useEffect hook for setting our API data
+            setData(response.data)
+        })
+    })
     return (
         <div>
 
@@ -29,10 +38,23 @@ export default function Home(){
 
     <p>
 
-        Here are some news...
+        Here are the latest news...
 
     </p>
-
+    <div>
+    {data.slice(0, 4).map((card) => {               //Keep the first 4 items-news from incoming data
+                    return (
+                        <div>
+                            <h4>{card.newsTitle}</h4>
+                            <p>{card.newsUrl}</p>
+                            <p>{card.newsTimetoRead}</p>
+                            <p>{card.newsDatePublished}</p>
+                            <p>{card.newsSection}</p>
+                            <img src={card.newsImgSrc} alt="" />
+                        </div>
+                    )
+                })}
+</div>
 </div>
 
 <div id="projects">
