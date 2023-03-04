@@ -12,10 +12,23 @@ import Projects from './pages/Projects'
 import NewsSb from './pages/News_sb'
 
 export default function App(){
+
+
+  const [darkMode, setDarkMode] = React.useState(true)   //State for Light Mode/ Dark Mode (Dark Mode initialised)
+    
+  function toggleDarkMode() {
+    if(darkMode){
+      document.body.style.backgroundColor = "#ECEBF3";
+    }else{                                              
+      document.body.style.backgroundColor = "#1A1B41";
+    }
+      setDarkMode(prevMode => !prevMode)
+  }
+
   return (
     <BrowserRouter>             
     <div className="App">
-      <Navbar/> 
+      <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode}/> 
       <Routes>
         <Route exact path='/' element={<Home />}/>
         <Route path='/about' element={<About />} />
