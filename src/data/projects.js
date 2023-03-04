@@ -54,7 +54,7 @@ const data = [
     text:
       " Creation of web pages or a mobile application through which you can present a rescue operation in a tunnel in the form of 360 videos," +
       " using already available material.",
-    image: "../images/rescuer_presentation.png",
+    image: "../images/projects/rescuer_presentation.png",
   },
   {
     id: 7,
@@ -71,7 +71,7 @@ const data = [
     text:
       " Design of a UWB radar demonstration scenario for use in rescue operations, with the aim of presenting it at a technology fair." +
       " Students participating in this project will be the ones presenting it at the fair.",
-    image: "../images/radar.png",
+    image: "../images/projects/radar.png",
   },
   {
     id: 9,

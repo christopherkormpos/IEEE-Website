@@ -22,7 +22,7 @@ const data = [
     text:
       " Phoeve Bertsia, Eleni Moniaki and Eleni Agrianiti, volunteers of IEEE UniWA Student Branch, participated in the presentation of IEEE UniWA SB’s projects," +
       " in 2022 Athens Science Festival.",
-    image: "../images/news/athens_sci_fest_2022_1",
+    image: "../images/news/athens_sci_fest_2022_1.png",
   },
   {
     id: 4,
