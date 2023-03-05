@@ -1,0 +1,17 @@
+Design Ideas
+
+1)https://dribbble.com/shots/20825905-C-trip-Landing-Page-Design?fbclid=IwAR2auj8pFoejrPnSnhHoTB6xolEpg2X9k1IaOZ0SSpcGTv3mK46IHvIcPjg
+2)https://dribbble.com/shots/18154507-U-of-M-Carlson-School-of-Management-Alumni-Refresh?fbclid=IwAR0iYWVP9y3imUnBS8jQsokMY1N1ie9dpldl1BlUbKt92NkHNV3GAJE5lZ8
+3)https://dribbble.com/shots/20247254-University-Website-Pages?fbclid=IwAR03XxoTwKsu05wVAPtfy6CN9mJTPqQiwkNSGk2hEvcvVYsssWLJwjoABdg
+
+Most possibly designs 2,3
+
+--> Text Font : Roboto, sans serif
+
+--> Data Structures to look like Data from API (date_published,category:project or newssb,time_toread etc)
+	- Card component creation (basic style)
+	- Common data fetch in a single card component for displaying content
+
+--> Color palletes for both ligh and dark mode to be selected
+--> Dropdown menus with Activities dropdown (Projects,Contests) and News dropdown (Spectrum news , Branch news)
+--> CSS to be applied doing simultaneous work
