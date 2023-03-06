@@ -8,7 +8,7 @@ const data = [
       " of a research lab and student clubs of a University. The dataset will be used in order to prepare a prototype chatbot" +
       " for the CONCERT lab and the University of West Attica IEEE Student branch.",
 
-    image: "../images/projects/chatbot.png",
+    image: "../images/projects/chatbot.jpg",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const data = [
       " In the context of the specific project, the literature and the existing situation regarding devices and platforms" +
       " for monitoring animal activity will be studied, while a platform will be designed that will use existing devices" +
       " (WAMPA, Digitanimal, web cams) to create a dataset with animal activity , for use in Deep Learning models.",
-    image: "../images/nia.png",
+    image: "../images/projects/animal-activity.jpg",
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const data = [
     text:
       " Use of the MASTODON open source social network platform, to create a social network only for students of a specific department" +
       " with the aim of serving their communication needs, free from advertisements or messages from users unrelated to the University.",
-    image: "../images/projects/mastodon.png",
+    image: "../images/projects/mastodon.jpg",
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ const data = [
     text:
       " Creation of game scenarios through the Scavify app to get to know the University, its spaces and the services. It is intended" +
       " to be used by new students or Erasmus students.The games will be played on mobile, and will take the form of a treasure hunt.",
-    image: "../images/nia.png",
+    image: "../images/projects/scavify.png",
   },
   {
     id: 6,
@@ -54,7 +54,7 @@ const data = [
     text:
       " Creation of web pages or a mobile application through which you can present a rescue operation in a tunnel in the form of 360 videos," +
       " using already available material.",
-    image: "../images/projects/rescuer_presentation.png",
+    image: "../images/projects/rescuer-360.jpg",
   },
   {
     id: 7,
@@ -63,7 +63,7 @@ const data = [
     text:
       " Use of a special application (e.g. on ipad) to convert photos and presentations into comic strips that will present the results and" +
       " activities of the RESCUER research project.",
-    image: "../images/nia.png",
+    image: "../images/projects/rescuer-comic.png",
   },
   {
     id: 8,
@@ -71,14 +71,14 @@ const data = [
     text:
       " Design of a UWB radar demonstration scenario for use in rescue operations, with the aim of presenting it at a technology fair." +
       " Students participating in this project will be the ones presenting it at the fair.",
-    image: "../images/projects/radar.png",
+    image: "../images/projects/radar.jpg",
   },
   {
     id: 9,
     title:
       "Interactive presentation of the University and its premises using 360 video and images",
     text: " Use of 360 camera to create an interactive presentation of the University on a website (or mobile application).",
-    image: "../images/nia.png",
+    image: "../images/projects/uni-presentation.jpg",
   },
   {
     id: 10,
@@ -86,13 +86,13 @@ const data = [
     text:
       " Design and print the body of a service robot (with the possibility of autonomous movement, communication with users)," +
       " which will combine existing hardware implementations in the CONSENT laboratory.",
-    image: "../images/nia.png",
+    image: "../images/projects/robot-parts.jpg",
   },
   {
     id: 11,
     title: "Student Branch website creation",
     text: " Ongoing work on the current website for the ieee Studen Branch of UniWA.",
-    image: "../images/nia.png",
+    image: "../images/projects/website.jpg",
   },
 ];
 
