@@ -8,10 +8,7 @@ Most possibly designs 2,3
 
 --> Text Font : Roboto, sans serif
 
---> Data Structures to look like Data from API (date_published,category:project or newssb,time_toread etc)
-	- Card component creation (basic style)
-	- Common data fetch in a single card component for displaying content
-
---> Color palletes for both ligh and dark mode to be selected
+--> Color palletes for both ligh and dark mode --> IMAGES
 --> Dropdown menus with Activities dropdown (Projects,Contests) and News dropdown (Spectrum news , Branch news)
 --> CSS to be applied doing simultaneous work
+--> Create a good README
