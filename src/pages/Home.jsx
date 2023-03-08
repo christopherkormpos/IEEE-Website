@@ -24,6 +24,7 @@ export default function Home(props) {
                     events through our scholarship years, made by IEEE or other IEEE Student Branches.
                 </p>
                 <Link to="/about">More about our Student Branch</Link>
+                <img src="./images/undraw/undraw_Welcoming_re_x0qo.png" alt="welcome" />
             </div>
             <div id="news-latest">
                 <h3> Latest News </h3>
@@ -76,6 +77,7 @@ export default function Home(props) {
                     Join today the global community of IEEE and get access to all the student benefits today!
                     <Link to="/joinieee"> Join IEEE </Link>
                 </p>
+                <img src="./images/undraw/undraw_Online_cv_re_gn0a.png" alt="signup" />
             </div>
         </main>
     )
