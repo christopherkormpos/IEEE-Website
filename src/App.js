@@ -30,14 +30,14 @@ export default function App() {
       <div className="App">
         <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/" element={<Home darkMode={darkMode}/>} />
           <Route path="/about" element={<About />} />
           <Route path="/contests" element={<Contests />} />
           <Route path="/council" element={<Council />} />
           <Route path="/joinieee" element={<JoinIEEE />} />
-          <Route path="/news" element={<News />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/news_sb" element={<NewsSb />} />
+          <Route path="/news" element={<News darkMode={darkMode}/>} />
+          <Route path="/projects" element={<Projects darkMode={darkMode}/>} />
+          <Route path="/news_sb" element={<NewsSb darkMode={darkMode}/>} />
         </Routes>
         <Footer />
       </div>

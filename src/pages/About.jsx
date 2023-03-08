@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function About() {
+export default function About(props) {
     return (
-        <div id="main">
+        <div className={`about-${props.darkMode ? "dark" : ""}`}>
             <h3> We Are IEEE </h3>
             <p>
                 The IEEE Student Branch of the University of West Attica was founded at the beginning of 2011.

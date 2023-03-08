@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Contests() {
+export default function Contests(props) {
     return (
-        <div>
+        <div className={`contests-${props.darkMode ? "dark" : ""}`}>
             <h2> IEEE Contests </h2>
             <p>
                 Members of our Student Branch are able to participate in IEEE contests. Below are contests we have participated.

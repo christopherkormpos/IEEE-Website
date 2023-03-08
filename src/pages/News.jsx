@@ -2,7 +2,7 @@ import React from 'react'
 // eslint-disable-next-line no-unused-vars
 import axios from 'axios';
 
-export default function News(){
+export default function News(props){
     const [data, setData] = React.useState([])      //State for incoming API data
 
 
@@ -14,7 +14,7 @@ export default function News(){
 
     return (
         data.length > 0 ?               //Ternary operator
-        <div className="wrapper">      
+        <div className={`news-${props.darkMode ? "dark" : ""}`}>      
                 {data.map((card) => {
                     return (
                         <div>
@@ -29,7 +29,7 @@ export default function News(){
                 })}
             </div>
 
-            : <div>ERROR OCCUERD</div>
+            : <div>Loading Latest IEEE Spectrum News</div>
 
 
     )

@@ -1,17 +1,16 @@
 import React from 'react'
 import data from '../data/projects'
 
-export default function Projects() {
+export default function Projects(props) {
     const projects = data.map(project => {
-        return <div>
-            <p>{project.id}</p>
+        return <div key={project.id}>
             <h1>{project.title}</h1>
             <p>{project.text}</p>
             <img src={project.image} alt="" />
         </div>
     })
     return (
-        <div>
+        <div className={`projects-${props.darkMode ? "dark" : ""}`}>
             <div id="main">
                 <h2> Our Projects </h2>
                 <p>
