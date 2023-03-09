@@ -16,7 +16,7 @@ export default function Home(props) {
     return (
         <main className={`main-${props.darkMode ? "dark" : ""}`}>
             <div id="we-are-ieee">
-                <img src="./images/sb_logo_full.png" alt="logo" />
+                <img src="../images/romvos.png" alt="logo" />
                 <h3> About IEEE </h3>
                 <p>
                     An IEEE Student Branch just like ours is a part of the broader Institute of Electrical and Electronics Engineers.
