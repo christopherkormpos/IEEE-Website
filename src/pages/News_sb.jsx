@@ -14,6 +14,7 @@ export default function News(props) {
         <div className={`newsSb-${props.darkMode ? "dark" : ""}`}>
             <h2> Student Branch News </h2>
             <p>Here are the latest news of our Student Branch!</p>
+            <img src="./images/undraw/undraw_Happy_announcement_re_tsm0.png" alt="news" />
             <div class="news">
                 {newsSb}
             </div>

@@ -8,6 +8,7 @@ export default function Contests(props) {
                 Members of our Student Branch are able to participate in IEEE contests. Below are contests we have participated.
                 We are open to join any other competition that IEEE is hosting.
             </p>
+            <img src="./images/undraw/undraw_Freelancer_re_irh4.png" alt="contest" />
             <div class="project" id="chatbot-dataset">
                 <h3> IEEEXtreme  </h3>
                 <p>

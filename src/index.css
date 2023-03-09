@@ -73,7 +73,6 @@ nav.dark .toggler-dark {
 nav.dark .toggler--slider {
     justify-content: flex-end;
 }
-
 /*NAVBAR CONFIG AND DROPDOWN STYLES*/
 nav{
     overflow: hidden;
@@ -148,3 +147,4 @@ nav a {
   .content{
     margin-top: 10px;
   }
+

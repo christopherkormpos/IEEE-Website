@@ -13,8 +13,10 @@ export default function News(props){
     })
 
     return (
+
         data.length > 0 ?               //Ternary operator
-        <div className={`news-${props.darkMode ? "dark" : ""}`}>      
+        <div className={`news-${props.darkMode ? "dark" : ""}`}>  
+                <img src="./images/undraw/undraw_education_f8ru9.png" alt="spectrum" />    
                 {data.map((card) => {
                     return (
                         <div>
@@ -30,6 +32,8 @@ export default function News(props){
             </div>
 
             : <div>Loading Latest IEEE Spectrum News</div>
+
+        
 
 
     )

@@ -11,4 +11,7 @@ Most possibly designs 2,3
 --> Color palletes for both ligh and dark mode --> IMAGES
 --> Dropdown menus with Activities dropdown (Projects,Contests) and News dropdown (Spectrum news , Branch news)
 --> CSS to be applied doing simultaneous work
+--> Link to projects, news go to page start
+
 --> Create a good README
+
