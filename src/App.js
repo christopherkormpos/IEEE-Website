@@ -16,11 +16,11 @@ export default function App() {
 
   function toggleDarkMode() {
     if (darkMode) {
-      document.body.style.backgroundColor = "#ECEBF3";
-      document.body.style.color = "#000000";
+      document.body.style.backgroundColor = "#cdd5dc";
+      document.body.style.color = "#24292f";
     } else {
-      document.body.style.backgroundColor = "#1A1B41";
-      document.body.style.color = "#F5F5F5";
+      document.body.style.backgroundColor = "#020122";
+      document.body.style.color = "#c9d1d9";
     }
     setDarkMode((prevMode) => !prevMode);
   }
@@ -30,14 +30,14 @@ export default function App() {
       <div className="App">
         <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <Routes>
-          <Route exact path="/" element={<Home darkMode={darkMode}/>} />
+          <Route exact path="/" element={<Home darkMode={darkMode} />} />
           <Route path="/about" element={<About />} />
           <Route path="/contests" element={<Contests />} />
           <Route path="/council" element={<Council />} />
           <Route path="/joinieee" element={<JoinIEEE />} />
-          <Route path="/news" element={<News darkMode={darkMode}/>} />
-          <Route path="/projects" element={<Projects darkMode={darkMode}/>} />
-          <Route path="/news_sb" element={<NewsSb darkMode={darkMode}/>} />
+          <Route path="/news" element={<News darkMode={darkMode} />} />
+          <Route path="/projects" element={<Projects darkMode={darkMode} />} />
+          <Route path="/news_sb" element={<NewsSb darkMode={darkMode} />} />
         </Routes>
         <Footer />
       </div>
