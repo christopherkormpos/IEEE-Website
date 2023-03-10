@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"; //React-Router
 import React from "react";
 import Navbar from "./components/Navbar";
+import ScrollToTop from "./components/ScrolltoTop";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -27,6 +28,7 @@ export default function App() {
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="App">
         <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <Routes>
