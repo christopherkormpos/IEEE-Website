@@ -37,7 +37,11 @@ export default function About(props) {
             </p>
             <p>
                 More about ieee on the official website:
-                <a href="https://www.ieee.org/about/at-a-glance.html" target="_blank" rel="noreferrer"> https://www.ieee.org/about/at-a-glance.html </a>
+                <a href="https://www.ieee.org/about/at-a-glance.html" target="_blank" rel="noreferrer"> 
+                    <button>
+                        https://www.ieee.org/about/at-a-glance.html
+                    </button>
+                </a>
             </p>
             <img src="./images/undraw/undraw_Engineering_team_a7n2.png" alt="signup" />
         </div>

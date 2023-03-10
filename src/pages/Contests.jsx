@@ -14,10 +14,19 @@ export default function Contests(props) {
                 <p>
                     IEEEXtreme is a global challenge in which teams of IEEE Student members – advised and proctored by an IEEE member,
                     and often supported by an IEEE Student Branch – compete in a 24-hour time span against each other to solve
-                    a set of programming problems.Competition website :
-                    <a href="https://ieeextreme.org/" target="_blank" rel="noreferrer"> https://ieeextreme.org/ </a>
-                    Practice now :
-                    <a href="https://csacademy.com/ieeextreme-practice/" target="_blank" rel="noreferrer"> https://csacademy.com/ieeextreme-practice/ </a>
+                    a set of programming problems. 
+                    <br></br>Competition website :
+                    <a href="https://ieeextreme.org/" target="_blank" rel="noreferrer">
+                        <button>
+                             https://ieeextreme.org/ 
+                        </button>
+                    </a>
+                    <br></br>Practice now :
+                    <a href="https://csacademy.com/ieeextreme-practice/" target="_blank" rel="noreferrer">
+                        <button>
+                             https://csacademy.com/ieeextreme-practice/ 
+                        </button>
+                    </a>
                 </p>
                 <img src="../images/contests/xtreme-logo.png" alt="xtreme-logo" />
             </div>

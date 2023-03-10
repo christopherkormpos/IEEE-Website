@@ -23,7 +23,11 @@ export default function Home(props) {
                     We are a small community of students who strive to learn about new technologies, develop projects and join or create
                     events through our scholarship years, made by IEEE or other IEEE Student Branches.
                 </p>
-                <Link to="/about">More about our Student Branch</Link>
+                <Link to="/about">
+                    <button>
+                        More about our Student Branch
+                    </button>
+                </Link>
                 <img src="./images/undraw/undraw_Welcoming_re_x0qo.png" alt="welcome" />
             </div>
             <div id="news-latest">
@@ -60,8 +64,11 @@ export default function Home(props) {
                 </div>
                 <p>
                     Want to participate on our ongoing projects?
-                    Learn more about them
-                    <Link to="/projects"> here. </Link>
+                    <Link to="/projects">
+                        <button>
+                            Learn more about them here.
+                        </button>
+                    </Link>
                 </p>
                 
             </div>
@@ -75,7 +82,11 @@ export default function Home(props) {
                 <h3> Join Us </h3>
                 <p>
                     Join today the global community of IEEE and get access to all the student benefits today!
-                    <Link to="/joinieee"> Join IEEE </Link>
+                    <Link to="/joinieee">
+                        <button>
+                            Join IEEE
+                        </button>
+                    </Link>
                 </p>
                 <img src="./images/undraw/undraw_Online_cv_re_gn0a.png" alt="signup" />
             </div>
