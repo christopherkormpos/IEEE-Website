@@ -20,7 +20,7 @@ export default function App() {
       document.body.style.color = "#24292f";
     } else {
       document.body.style.backgroundColor = "#020122";
-      document.body.style.color = "#c9d1d9";
+      document.body.style.color = "#F8F4F9";
     }
     setDarkMode((prevMode) => !prevMode);
   }
