@@ -40,7 +40,11 @@ export default function Home(props) {
                     <h3> Latest IEEE Spectrum News </h3>
                     <p>
                         Here are the latest news from IEEE Spectrum extracted from our own unique API
-                        <a href="/API">Learn more about our API</a>
+                        <a href="/API">
+                            <button>
+                                Check out our API
+                            </button>
+                        </a>
                     </p>
                 </div>
                 <div>
